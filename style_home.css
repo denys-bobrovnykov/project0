@@ -1,0 +1,29 @@
+body {
+      background-image: url('freestyle.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      }
+    .intro {
+      text-indent: 40px;
+      font-size: 18px;
+      text-align: center;
+      color:blue;
+      }
+     div {
+      margin: 20px;
+      }
+     .list {
+      text-align: left;
+      }
+     .switch {
+       align: center
+       }
+     #copyright {
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      color: white;
+      }
