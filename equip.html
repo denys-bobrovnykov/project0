@@ -4,20 +4,38 @@
     <title>Hardware</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style_home.css">
+    <link rel="stylesheet" href="media.css">
+    <style>
+     .row > div {
+                padding: 20px;
+
+                border: 2px solid black;
+            }
+    </style>
 </head>
 <body>
-   <div>
-       Building equipment
-   </div>
-   <div>
-       Radio
-   </div>
-   <div>
-       Drone parts
-   </div>
-   <div>
-       <a href="parts.html">Drone parts| <a href="home.html">Home page|</a> <a href="Software.html">Software</a>
+   <nav id="nav">
+       <ul>Navigation
+               <li><a href="parts.html">Drone parts</a></li>
+               <li><a href="home.html">Home page</a></li>
+               <li><a href="Software.html">Software</a></li>
+       </ul>
+   </nav>
+     <div class="container">
+         <div class="row">
+             <div class="col-sm">
+                 <a class="list">Building equipment</a>
+             </div>
+             <div class="col-sm">
+                 <a id="list">Radio</a>
+             </div>
+           <div class="col-sm">
+               <a class="list">Drone parts</a>
+           </div>
+         </div>
+       </div>
 
-    </div>
+
+         <p id="copyright">Created by Denys Bobrovnykov 2020.</p>
 </body>
 </html>

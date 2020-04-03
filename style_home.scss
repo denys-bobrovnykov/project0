@@ -1,0 +1,53 @@
+$background-image: url('freestyle.jpg'); //variable
+$copyright-color: white;                 //variable
+%common-color {
+    color: red;
+    }
+   body {
+      background-image: $background-image;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      }
+    .intro {
+      @extend %common-color;             //inheritance
+      text-indent: 40px;
+      font-size: 18px;
+      text-align: center;
+           //variable
+      }
+     div {
+      margin: 20px;
+      }
+     .list  {
+      @extend %common-color;             //inheritance
+      text-align: left;
+      }
+     #copyright {
+      bottom: 0;
+      left: 0;
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      color: $copyright-color;
+      }
+    nav {
+                                         //nesting example
+     ul {
+       margin: 0;
+       padding: 0;
+       list-style: none;
+        }
+       li {
+       background-color: lightgrey;
+       border: rounded;
+       border-style: solid;
+       display: inline-block;
+       }
+       a {
+    color: black;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+}
