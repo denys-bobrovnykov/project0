@@ -1,3 +1,9 @@
 table, th, tr, td {
-    border: solid
+    border: solid;
+    text-align: center;
+    padding: 3px;
     }
+th {
+   font-style: bold;
+   background: lightgrey;
+   }
